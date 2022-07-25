@@ -7,4 +7,5 @@ Since this is a tech demo, I've implemented my own maths library- which I would 
 
 ## Credits
 Art / Music by @Glhuun
+
 Code / Design by @mckahz
