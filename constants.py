@@ -1,0 +1,14 @@
+import pygame
+import maths
+
+(SCREEN_WIDTH, SCREEN_HEIGHT) = (240, 135)
+
+info = pygame.display.Info()
+(DISPLAY_WIDTH, DISPLAY_HEIGHT) = (info.current_w, info.current_h)
+SCALE_FACTOR = int(maths.floor(min(DISPLAY_WIDTH / SCREEN_WIDTH, DISPLAY_HEIGHT / SCREEN_HEIGHT)) - 2)
+(WINDOW_WIDTH, WINDOW_HEIGHT) = (SCALE_FACTOR * SCREEN_WIDTH, SCALE_FACTOR * SCREEN_HEIGHT)
+
+
+FONT_COLOR = (255, 255, 255)
+BACKGROUND_COLOR = (28, 9, 29)
+FPS = 60
